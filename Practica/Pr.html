@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+ <title>Document</title>
+ <p><h1>Práctica con Css</h1></p><br><br>
+
+</head>
+<body>
+    <button onclick="showAlert()"> Haz click aquí </button>
+    <button id ="miBoton"> Haz click here </button>
+    <br><br><br>
+    <form id href="myForm"> 
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h3>Hola, esta es mi primera practica con css</h3><br>
+    <h4>Hoy fue un buen dia</h4><br>                    
+    <h5>Estoy estudiando </h5><br>
+    <h2>Ejemplo de contenido nuevo, ejemplo para amplificar css, aqui, con un cuadrado</h2>
+    <br><br>
+    <style>
+        div{
+            border: solid green 5px;
+            margin: 20px
+        }
+        body>div :nth-child(1){
+            display: none;
+        }
+        body>div :nth-child(2){
+            display: block;
+        } body>div :nth-child(3){
+            display: inline;
+        } body>div :nth-child(4){
+            display: inline-block;
+        } body>div :nth-child(5){
+            display: inherit;
+        }
+
+    </style>
+    <div>padre
+        <div>hijo</div>
+        <div>hijo</div>
+        <div>hijo</div>
+    </div>
+    <div>padre
+        <div>hijo</div>
+        <div>hijo</div>
+        <div>hijo</div>
+    </div>
+    <div>padre
+        <div>hijo</div>
+        <div>hijo</div>
+        <div>hijo</div>
+    </div>
+    <div>padre
+        <div>hijo</div>
+        <div>hijo</div>
+        <div>hijo</div>
+    </div>
+    <div>padre
+        <div>hijo</div>
+        <div>hijo</div>
+        <div>hijo</div>
+    </div>
+
+<link rel="stylesheet" href="Style.css">
+<script src="Script.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
